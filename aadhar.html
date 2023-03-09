@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            padding: 50PX 0PX 0PX 0PX;
+            display: flex;
+            justify-content: center;
+            background-color:#efefef;
+            font-family: sans-serif;
+        }
+        .container{
+            background-color: white;
+            width: 30rem;
+            height: 17.5rem;
+            border: 2px solid rgb(236, 233, 233);
+            border-radius: 10px;
+            margin: 0px 20px 0px 0px;
+        }
+        .banner1 img{
+            width: 80%;
+            margin: 5px 0px 0px 45px;
+        }
+        .text{
+            display: flex;
+            margin: 9px 0px;
+        }
+        .text img{
+            width: 110px;
+            padding: 0px 0px 0px 0px;
+            margin: -10px 10px 10px 10px;
+        }
+        .text p{
+            font-size: 14px;
+            margin-top: -10px;
+            letter-spacing: 1px;
+        }
+        .text span{
+            letter-spacing: 3px;
+        }
+        .number{
+            display: flex;
+            justify-content: center;
+            align-items: end;
+            font-size: 22px;
+            letter-spacing: 2px;
+            font-weight: 600;
+            margin-top: -70px;
+            margin-left: 110px;
+        }
+        .number img{
+            width: 100px;
+            height: 100px;
+            padding-bottom: 30px ;
+            margin-left: 10px;
+        }
+        hr{
+            border-color: rgb(238, 54, 54);
+            background-color: rgb(238, 54, 54);
+            margin-top: -20px;
+            height: 0.8px;
+            
+        }
+        .last{
+            margin-top: -20px;
+            text-align: center;
+            font-size: 22px;
+            font-weight: 600;
+            font-family: cursive;
+        }
+        .last span{
+            color: rgb(241, 83, 83);
+        }
+        
+        .address{
+            display: flex;
+            margin: 9px 15px;
+        }
+        .address p{
+            font-size: 14px;
+            margin-top: -10px;
+            letter-spacing: 0.4px;
+            padding-left: 20px;
+        }
+        .address span{
+            letter-spacing: 3px;
+        }
+        .banner2{
+            display: flex;
+            margin: 10px 0px 10px 50px;
+        }
+        .banner3 img{
+            width: 90%;
+            height: 90%;
+            /* margin: 5px 0px 0px 0px; */
+        }
+        .banner4 img{
+            width: 80%;
+        }
+        .number2{
+            display: flex;
+            justify-content: center;
+            align-items: end;
+            font-size: 22px;
+            letter-spacing: 2px;
+            font-weight: 600;
+            margin-top: -72px;
+            /* margin-left: 110px; */
+        }
+        @media (max-width: 550px) {
+            body{
+                display: block;
+            }
+        }
+        </style>
+</head>
+<body>
+<!-- Front Aadhar Card -->
+    <div class="container">
+        <div class="banner1">
+            <img src="aadghar_banner.png" alt="">
+        </div>
+        <div class="text">
+            <img src="chandan.jpg" alt="">
+            <p>अमन कुमार<br>Aman Kumar<br>जन्म ति<span>थि/</span>DO<span>B:</span>17/08/2005<br>पुरूष /MALE</p>
+        </div>
+        <div class="number">
+            <p>9219 5331 6851</p>
+            <img src="qr_code.png" alt="">
+        </div>
+        <hr>
+        <div class="last">
+            <p>मेरा <span>आधार</span>, मेरी पहचान</p>
+        </div>
+    </div>
+<!-- Back Aadhar Card -->
+    <div class="container">
+        <div class="banner2">
+            <div class="banner3">
+                <img src="1.jpg" alt="">
+            </div>
+            <div class="banner4">
+                <img src="2.png" alt="">
+            </div>
+        </div>
+        <div class="address">
+            <p>पता:<br>आत्म<span>ज:</span>अजित कुमार , ओबरा,<br>औरंगाबाद, बिहार, 822123</p>
+            
+            <p>Address:<br>S/<span>O:</span>Ajit Kumar, Obra,<br>Aurangabd, Bihar, <br> 822123</p>
+        
+        </div>
+        <br><br><br><br>
+        <br><br>
+        <div class="number2">
+            <p>9219 5331 6851</p>
+        </div>
+        <hr>
+        <div class="last">
+            <p>मेरा <span>आधार</span>, मेरी पहचान</p>
+        </div>
+    </div>
+</body>
+</html>
